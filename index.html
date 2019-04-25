@@ -6,11 +6,14 @@
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- jquery and popper commented out, didnt need it  -->
+<!-- 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+<!-- 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
 
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 		</head>
 		
 	<style>
@@ -25,43 +28,44 @@
 		
 	</style>
 	
-       <!-- 	Bootstrap Navbar	 -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<a class="navbar-brand" href="#">Navbar</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+	<!-- 	Bootstrap Navbar	 -->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<a class="navbar-brand" href="#">Organization of Organic Juicing</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#table_section">Table</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Dropdown
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#form_section">Form</a>
-							<a class="dropdown-item" href="#text_section">Text</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#">Something else here</a>
-						</div>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Disabled</a>
-					</li>
-				</ul>
-				<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				</form>
-			</div>
-		</nav>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#table_section">Table</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Dropdown
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#form_section">Form</a>
+								<a class="dropdown-item" href="#text_section">Text</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#">Disabled</a>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					</form>
+				</div>
+			</nav>
 
+       
 	<body>		
 	
 	
@@ -100,6 +104,7 @@
 		</a>
 	</div>
 
+<h1>Members</h1>
 	
 	<section id="table_section" >
 	<table class="table table-dark">
@@ -108,8 +113,8 @@
 					<th scope="col">#</th>
 					<th scope="col">First</th>
 					<th scope="col">Last</th>
-					<th scope="col">Handle</th>
-					<th scope="col">Username</th>
+					<th scope="col">Donation</th>
+					<th scope="col">Email</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -151,6 +156,57 @@
 			</tbody>
 		</table>	
 	</section>
+	
+	<h1>Contact</h1>
+	
+	
+	
+	
+	<section id="contact" class="container">  
+		<div class="row">    
+			<div class="col-sm-offset-2 col-sm-8">           
+			
+			<form class="form-horizontal">
+				<div class="form-group">
+					<label class="col-sm-2 control-label" for="contact-name">Name</label>
+					<div class="col-sm-10">
+						<input class="form-control" type="text" id="contact-name" placeholder="Full name">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-2 control-label" for="contact-email">Email</label>
+					<div class="col-sm-10">
+						<input class="form-control" type="text" id="contact-email" placeholder="Contact email">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-2 control-label" for="contact-email">Message</label>
+					<div class="col-sm-10">
+						<textarea class="form-control" rows="3" placeholder="Type your message"></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							I want to subscribe to receive updates from the company.
+						</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<button class="btn btn-success btn-lg" type="submit">Submit</button>
+					</div>
+				</div>
+			</form>
+			
+			</div>  
+		</div>
+	</section>
+	
+	
+	
+	
 	
 	
 	<section id="form_section">
@@ -214,6 +270,79 @@
 		<div class="col-4">The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight for a quick jump. Joaquin Phoenix was gazed by MTV for luck. A wizard’s job is to vex chumps quickly in fog. Watch "Jeopardy!", Alex Trebek's fun TV quiz game. Woven silk pyjamas exchanged for blue quartz. Brawny gods just</div>
 	</div>	
 	</section>
+	
+	
+	
+	<section class="pricing py-5">
+		<div class="container">
+			<div class="row">
+				<!-- Free Tier -->
+				<div class="col-lg-4">
+					<div class="card mb-5 mb-lg-0">
+						<div class="card-body">
+							<h5 class="card-title text-muted text-uppercase text-center">Free</h5>
+							<h6 class="card-price text-center">$0<span class="period">/month</span></h6>
+							<hr>
+							<ul class="fa-ul">
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Single User</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Storage</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+								<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited Private Projects</li>
+								<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated Phone Support</li>
+								<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Free Subdomain</li>
+								<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
+							</ul>
+							<a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
+						</div>
+					</div>
+				</div>
+				<!-- Plus Tier -->
+				<div class="col-lg-4">
+					<div class="card mb-5 mb-lg-0">
+						<div class="card-body">
+							<h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
+							<h6 class="card-price text-center">$9<span class="period">/month</span></h6>
+							<hr>
+							<ul class="fa-ul">
+								<li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5 Users</strong></li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>50GB Storage</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Free Subdomain</li>
+								<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
+							</ul>
+							<a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
+						</div>
+					</div>
+				</div>
+				<!-- Pro Tier -->
+				<div class="col-lg-4">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
+							<h6 class="card-price text-center">$49<span class="period">/month</span></h6>
+							<hr>
+							<ul class="fa-ul">
+								<li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited Users</strong></li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>150GB Storage</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited</strong> Free Subdomains</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly Status Reports</li>
+							</ul>
+							<a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
 	</body>
 	
 	<!-- Optional JavaScript -->
